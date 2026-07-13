@@ -1,0 +1,4 @@
+[build]
+  base = "5ff7f6ab-0273-4df0-bba7-a6a0a0efba0b"
+  command = "npm ci --include=dev --no-audit --no-fund && npm run build"
+  publish = "dist"
