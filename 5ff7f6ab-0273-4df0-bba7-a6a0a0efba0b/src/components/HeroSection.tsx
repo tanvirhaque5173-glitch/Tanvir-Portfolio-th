@@ -61,7 +61,7 @@ export function HeroSection() {
           variants={itemVariants}
           className="text-lg md:text-2xl font-light max-w-2xl mb-10 leading-relaxed opacity-90">
           
-          Enthusiastic architecture graduate specializing in 2D drafting and 3D visualization.
+          Enthusiastic diploma architecture graduate specializing in 2D drafting and 3D visualization.
         </motion.p>
 
         <motion.div variants={itemVariants} className="mb-20">
