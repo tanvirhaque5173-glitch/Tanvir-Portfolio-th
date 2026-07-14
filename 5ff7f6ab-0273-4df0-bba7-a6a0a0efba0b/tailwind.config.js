@@ -8,9 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-  sans: ['Archivo', 'sans-serif'],
-  serif: ['Playfair Display', 'Georgia', 'serif'], // সরল কোটেশন ব্যবহার করুন
-},
+        sans: ['Archivo', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+      },
       colors: {
         gray: {
           50: '#F9F9F9',
