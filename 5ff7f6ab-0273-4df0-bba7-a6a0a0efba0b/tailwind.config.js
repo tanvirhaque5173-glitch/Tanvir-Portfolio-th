@@ -8,10 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Archivo', 'sans-serif'],
-        // হেডিং বা স্পেশাল লেখার জন্য এই ইউনিক Serif ফন্টটি যোগ করা হলো
-        serif: ['"Playfair Display"', '"Instrument Serif"', 'Georgia', 'serif'],
-      },
+  sans: ['Archivo', 'sans-serif'],
+  serif: ['Playfair Display', 'Georgia', 'serif'], // সরল কোটেশন ব্যবহার করুন
+},
       colors: {
         gray: {
           50: '#F9F9F9',
