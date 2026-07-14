@@ -1,16 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: 'class', // <--- ঠিক এই লাইনটি এখানে যোগ করুন
+  darkMode: 'class',
   content: [
-  './index.html',
-  './src/**/*.{js,ts,jsx,tsx}'
-],
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}'
+  ],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Archivo', 'sans-serif'],
+        // হেডিং বা স্পেশাল লেখার জন্য এই ইউনিক Serif ফন্টটি যোগ করা হলো
+        serif: ['"Playfair Display"', '"Instrument Serif"', 'Georgia', 'serif'],
       },
-      // ... আপনার বাকি সব কোড আগের মতোই থাকবে
       colors: {
         gray: {
           50: '#F9F9F9',
@@ -25,7 +26,6 @@ export default {
           900: '#1A1A1A',
         },
       },
-      // ... বাকি কোড
     },
   },
   plugins: [],
