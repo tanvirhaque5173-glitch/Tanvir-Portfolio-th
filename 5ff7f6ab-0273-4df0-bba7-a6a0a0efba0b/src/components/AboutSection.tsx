@@ -21,42 +21,39 @@ export function AboutSection() {
               src="https://i.ibb.co.com/KYpgPcd/TH-IMAGE-remini-enhanced.jpg"
               alt="Tanvir Haque"
               className="w-full h-full object-cover opacity-90 dark:opacity-80 transition-opacity" />
-            
           </div>
 
-          {/* Design Process - Methodology (Now visible on all screens) */}
+          {/* Design Process - Methodology */}
           <div className="pt-4">
             <div className="border-b border-gray-200 dark:border-neutral-800 pb-2 mb-6">
               <span className="text-[10px] uppercase tracking-widest text-gray-400 font-medium">Methodology</span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-1 gap-8">
               {[
-              { step: '01', title: 'Conceptualization', desc: 'Site analysis and spatial planning.' },
-              { step: '02', title: 'Drafting', desc: 'Precise 2D documentation in AutoCAD.' },
-              { step: '03', title: 'Visualization', desc: '3D modeling and light simulation.' }].
-              map((m, i) =>
-              <div key={i} className="flex gap-4">
+                { step: '01', title: 'Conceptualization', desc: 'Site analysis and spatial planning.' },
+                { step: '02', title: 'Drafting', desc: 'Precise 2D documentation in AutoCAD.' },
+                { step: '03', title: 'Visualization', desc: '3D modeling and light simulation.' }
+              ].map((m, i) => (
+                <div key={i} className="flex gap-4">
                   <span className="text-[10px] font-mono text-gray-400 pt-1">{m.step}</span>
                   <div>
                     <h4 className="text-xs font-bold text-gray-900 dark:text-gray-100 uppercase tracking-tight">{m.title}</h4>
                     <p className="text-[11px] text-gray-500 dark:text-neutral-500 leading-tight mt-1">{m.desc}</p>
                   </div>
                 </div>
-              )}
+              ))}
             </div>
           </div>
         </div>
 
         {/* Right Column - Bio & Credentials */}
         <div className="md:col-span-7 flex flex-col justify-center mt-12 md:mt-0">
-          <<h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-8 leading-relaxed tracking-tight">
-  <span className="font-serif italic text-4xl md:text-5xl font-normal text-gray-900 dark:text-neutral-100 block mb-2">
-    Tanvir Haque
-  </span> 
-  is a <span className="font-serif italic font-normal text-gray-800 dark:text-neutral-200">Diploma Architect</span> and 
-  <span className="font-serif italic font-normal text-gray-800 dark:text-neutral-200"> Interior Designer</span> based in Dhaka, 
-  exploring the intersection of tectonic logic and atmospheric space.
-</h2>
+          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-8 leading-relaxed tracking-tight">
+            <span className="font-serif italic text-4xl md:text-5xl font-normal text-gray-900 dark:text-neutral-100 block mb-2">
+              Tanvir Haque
+            </span> 
+            is a <span className="font-serif italic font-normal text-gray-800 dark:text-neutral-200">Diploma Architect</span> and <span className="font-serif italic font-normal text-gray-800 dark:text-neutral-200">Interior Designer</span> based in Dhaka, exploring the intersection of tectonic logic and atmospheric space.
+          </h2>
 
           <p className="text-lg md:text-xl font-light text-gray-600 dark:text-gray-400 leading-relaxed mb-16">
             The practice explores the subtle dialogue between site context and autonomous 
@@ -72,12 +69,12 @@ export function AboutSection() {
                 <span className="text-[10px] uppercase tracking-widest text-gray-400 font-medium">Core Expertise</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 text-sm text-gray-900 dark:text-gray-200">
-                {['2D Architectural Drawing', '3D Modeling & Visualization', 'Interior & Exterior Space Design', 'Urban Planning & Strategy'].map((service) =>
-                <div key={service} className="flex items-center gap-3 italic font-light">
+                {['2D Architectural Drawing', '3D Modeling & Visualization', 'Interior & Exterior Space Design', 'Urban Planning & Strategy'].map((service) => (
+                  <div key={service} className="flex items-center gap-3 italic font-light">
                     <span className="w-1.5 h-1.5 bg-gray-300 dark:bg-neutral-700 rounded-full" />
                     {service}
                   </div>
-                )}
+                ))}
               </div>
             </div>
 
@@ -88,19 +85,19 @@ export function AboutSection() {
               </div>
               <div className="flex flex-wrap gap-x-12 gap-y-8">
                 {[
-                { name: 'AutoCAD 2D', level: 'Expert' },
-                { name: 'SketchUp', level: 'Expert' },
-                { name: 'V-Ray', level: 'Advanced' },
-                { name: 'Enscape', level: 'Advanced' },
-                { name: 'Lumion', level: 'Advanced' }].
-                map((skill, index) =>
-                <div key={index} className="flex flex-col">
+                  { name: 'AutoCAD 2D', level: 'Expert' },
+                  { name: 'SketchUp', level: 'Expert' },
+                  { name: 'V-Ray', level: 'Advanced' },
+                  { name: 'Enscape', level: 'Advanced' },
+                  { name: 'Lumion', level: 'Advanced' }
+                ].map((skill, index) => (
+                  <div key={index} className="flex flex-col">
                     <span className="text-sm text-gray-900 dark:text-gray-200 font-medium">{skill.name}</span>
                     <span className="text-[9px] uppercase tracking-[0.2em] text-gray-400 dark:text-neutral-600">
                       {skill.level}
                     </span>
                   </div>
-                )}
+                ))}
               </div>
             </div>
 
@@ -143,6 +140,6 @@ export function AboutSection() {
           </div>
         </div>
       </motion.div>
-    </section>);
-
+    </section>
+  );
 }
