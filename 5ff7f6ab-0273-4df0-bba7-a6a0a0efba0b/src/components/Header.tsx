@@ -45,7 +45,7 @@ export function Header({ darkMode, toggleDarkMode }: HeaderProps) {
               Tanvir Haque
             </span>
             <span className="text-[10px] tracking-[0.2em] uppercase text-gray-400 dark:text-neutral-500 transition-colors">
-              Architecture
+              Junior Architect
             </span>
           </div>
         </div>
