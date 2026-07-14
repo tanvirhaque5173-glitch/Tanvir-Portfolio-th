@@ -48,15 +48,15 @@ export function AboutSection() {
         </div>
 
         {/* Right Column - Bio & Credentials */}
-      div className="md:col-span-7 flex flex-col justify-center mt-12 md:mt-0">
-  <h2 className="text-4xl md:text-5xl lg:text-6xl font-extralight tracking-[-0.04em] leading-[1.05] text-gray-900 dark:text-white mb-8">
-    Tanvir Haque is a{" "}
-    <span className="font-medium italic">Diploma Architect</span> and{" "}
-    <span className="font-medium italic">Interior Designer</span> based in
-    Dhaka, exploring the intersection of{" "}
-    <span className="font-medium">tectonic logic</span> and{" "}
-    <span className="font-medium">atmospheric space</span>.
-  </h2>
+        <div className="md:col-span-7 flex flex-col justify-center mt-12 md:mt-0">
+          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-8 leading-tight tracking-tighter">
+            Tanvir Haque is 
+            a Diploma Architect and 
+            Interior Designer
+            based in Dhaka, 
+            exploring the intersection 
+            of tectonic logic and atmospheric space.
+          </h2>
 
           <p className="text-lg md:text-xl font-light text-gray-600 dark:text-gray-400 leading-relaxed mb-16">
             The practice explores the subtle dialogue between site context and autonomous 
