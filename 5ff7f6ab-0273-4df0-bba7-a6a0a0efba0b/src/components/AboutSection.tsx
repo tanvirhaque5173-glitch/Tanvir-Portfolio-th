@@ -48,7 +48,7 @@ export function AboutSection() {
         </div>
 
         {/* Right Column - Bio & Credentials */}
-        <div className="md:col-span-7 flex flex-col justify-center mt-12 md:mt-0">
+   <div className="md:col-span-7 flex flex-col justify-center mt-12 md:mt-0">
   <h2 className="text-4xl md:text-5xl lg:text-6xl font-extralight tracking-[-0.04em] leading-[1.05] text-gray-900 dark:text-white mb-8">
     Tanvir Haque is a{" "}
     <span className="font-medium italic">Diploma Architect</span> and{" "}
@@ -56,6 +56,8 @@ export function AboutSection() {
     Dhaka, exploring the intersection of{" "}
     <span className="font-medium">tectonic logic</span> and{" "}
     <span className="font-medium">atmospheric space</span>.
+  </h2>
+</div>
   </h2>
 </div>
           </h2>
