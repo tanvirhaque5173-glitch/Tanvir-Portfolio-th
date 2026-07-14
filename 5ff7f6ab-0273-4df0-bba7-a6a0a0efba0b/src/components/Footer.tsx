@@ -16,7 +16,7 @@ export function Footer() {
             // হোভারে টেক্সট এবং বর্ডার কালার ডার্ক মোডে সাদা (white) হবে
             className="hover:text-gray-900 dark:hover:text-white transition-colors border-b border-transparent hover:border-gray-900 dark:hover:border-white pb-0.5">
             
-            tanvirhaque5173@gmail.com
+            All rights reserved
           </a>
         </div>
       </div>
