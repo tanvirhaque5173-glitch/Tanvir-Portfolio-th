@@ -10,7 +10,7 @@ export const projects: Project[] = [
   location: 'Dhaka, BD',
   status: 'Completed',
   description: 'Developed complete 2D architectural drawings including floor plans, elevations, and sections...',
-  thumbnailUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80',
+  thumbnailUrl: 'https://i.ibb.co.com/RTYz86zJ/Chat-GPT-Image-Aug-11-2026-02-47-09-PM.png',
   aspectRatio: 'tall',
   colSpan: 5,
   gallery: [
