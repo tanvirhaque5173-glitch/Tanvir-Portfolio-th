@@ -25,14 +25,13 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden px-6 md:px-12 lg:px-20 mb-32 md:mb-56 transition-colors duration-500">
-      
       {/* Background Image with Parallax */}
       <motion.div style={{ y }} className="absolute inset-0 z-0">
         <img
           src="https://i.ibb.co.com/6cFhgp0X/myarchitectai-m7avsyhe5-sd.png"
           alt="Architectural Render"
-          className="w-full h-[120%] object-cover" />
-        
+          className="w-full h-[120%] object-cover"
+        />
         <div className="absolute inset-0 bg-black/50 dark:bg-black/70 transition-colors duration-500" />
       </motion.div>
 
@@ -40,8 +39,8 @@ export function HeroSection() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 w-full max-w-6xl mx-auto text-white">
-        
+        className="relative z-10 w-full max-w-6xl mx-auto text-white"
+      >
         <motion.div variants={itemVariants} className="mb-10">
           <span className="text-xs tracking-widest uppercase opacity-80 font-medium">
             Architecture & Interior Design
@@ -59,26 +58,25 @@ export function HeroSection() {
 
         <motion.p
           variants={itemVariants}
-          className="text-lg md:text-2xl font-light max-w-2xl mb-10 leading-relaxed opacity-90">
-          
+          className="text-lg md:text-2xl font-light max-w-2xl mb-10 leading-relaxed opacity-90"
+        >
           Enthusiastic diploma architecture graduate specializing in 2D drafting and 3D visualization.
         </motion.p>
 
         <motion.div variants={itemVariants} className="mb-20">
+          {/* public/CV_of_Tanvir_Haque.pdf ফোল্ডারে আপনার PDF ফাইলটি রাখুন */}
           <a
-            href="https://drive.google.com/uc?export=download&id=1_JcnB_NSMADg0dKvoX1p0owEN6NIK31d"
+            href="/CV_of_Tanvir_Haque.pdf"
+            download="CV_of_Tanvir_Haque.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 px-8 py-4 border border-white text-white hover:bg-white hover:text-black transition-all duration-300 text-xs tracking-[0.2em] uppercase font-bold">
-            
+            className="group inline-flex items-center gap-3 px-8 py-4 border border-white text-white hover:bg-white hover:text-black transition-all duration-300 text-xs tracking-[0.2em] uppercase font-bold"
+          >
             <span>Download CV</span>
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
           </a>
         </motion.div>
-
-        {/* --- লাইনগুলো (Bottom Divider) এখান থেকে রিমুভ করে দেওয়া হয়েছে --- */}
-        
       </motion.div>
-    </section>);
-
+    </section>
+  );
 }
