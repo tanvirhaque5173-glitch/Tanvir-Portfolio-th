@@ -2,9 +2,6 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
-// src ফোল্ডারে থাকা CV ফাইলটি import করা হয়েছে
-import resumePdf from './CV_of_Tanvir_Haque.pdf'; 
-
 export function HeroSection() {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 500], [0, 150]);
@@ -28,13 +25,12 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden px-6 md:px-12 lg:px-20 mb-32 md:mb-56 transition-colors duration-500">
-      
       {/* Background Image with Parallax */}
       <motion.div style={{ y }} className="absolute inset-0 z-0">
         <img
           src="https://i.ibb.co.com/6cFhgp0X/myarchitectai-m7avsyhe5-sd.png"
           alt="Architectural Render"
-          className="w-full h-[120%] object-cover" 
+          className="w-full h-[120%] object-cover"
         />
         <div className="absolute inset-0 bg-black/50 dark:bg-black/70 transition-colors duration-500" />
       </motion.div>
@@ -68,8 +64,9 @@ export function HeroSection() {
         </motion.p>
 
         <motion.div variants={itemVariants} className="mb-20">
+          {/* public/CV_of_Tanvir_Haque.pdf ফোল্ডারে আপনার PDF ফাইলটি রাখুন */}
           <a
-            href={resumePdf}
+            href="/CV_of_Tanvir_Haque.pdf"
             download="CV_of_Tanvir_Haque.pdf"
             target="_blank"
             rel="noopener noreferrer"
