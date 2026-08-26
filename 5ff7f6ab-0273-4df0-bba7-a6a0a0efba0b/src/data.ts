@@ -37,7 +37,7 @@ export const projects: Project[] = [
   gallery: [
   // মসজিদের ড্রয়িংগুলো এখানে যোগ করা হয়েছে
   { url: 'https://i.ibb.co.com/vx9pmW9X/Mosque-s-f.jpg', caption: 'SECTIONAL STUDY' },
-  { url: 'https://i.ibb.co.com/bRqvqr2n/Screenshot-2026-04-07-015945.png', caption: 'MINARET DETAIL DRAFT' },
+  { url: 'https://i.ibb.co.com/bRqvqr2n/Screenshot-2026-04-07-015945.png', caption: 'MINARET DETAIL DRAFT' }]
 
 
 },
