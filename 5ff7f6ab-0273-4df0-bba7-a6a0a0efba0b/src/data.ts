@@ -54,9 +54,7 @@ export const projects: Project[] = [
   aspectRatio: 'wide',
   colSpan: 7,
   gallery: [
-  // ডুপ্লেক্সের ড্রয়িংগুলো এখানে যোগ করা হয়েছে
-  { url: 'https://i.ibb.co.com/B2pS4XV1/Screenshot-2026-04-07-021850.png', caption: 'FACADE PLANNING' },
-  { url: 'https://i.ibb.co.com/6cfWfXMz/Screenshot-2026-04-07-023234.png', caption: 'ELEVATION LAYOUT' },
+  // ডুপ্লেক্সের ড্রয়িংগুলো এখানে যোগ করা হয়েছে,
   { url: 'https://i.ibb.co.com/kVFybxnV/bed-room01.png', caption: 'INTERIOR VIEW' },
   { url: 'https://i.ibb.co.com/VWMsxhb9/KITCHEN.jpg', caption: 'INTERIOR VIEW' }]
 
