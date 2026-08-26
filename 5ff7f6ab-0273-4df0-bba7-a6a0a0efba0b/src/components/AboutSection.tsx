@@ -53,14 +53,21 @@ export function AboutSection() {
           </div>
         </div>
 
-        {/* Right Column - Bio & Credentials */}
+       {/* Right Column - Bio & Credentials */}
         <div className="md:col-span-7 flex flex-col justify-center mt-12 md:mt-0">
-          <h2 className="text-3xl md:text-5xl font-serif italic font-normal text-gray-900 dark:text-white mb-8 leading-tight tracking-normal">
-            Tanvir Haque is a Diploma Architect and Interior Designer based in Dhaka, exploring the intersection of tectonic logic and atmospheric space.
+          
+          {/* Main Headline - Modern Clean Sans-serif */}
+          <h2 className="text-2xl md:text-4xl font-sans font-medium text-gray-900 dark:text-gray-100 mb-8 leading-snug tracking-tight">
+            Tanvir Haque is a Diploma Architect and Interior Designer based in Dhaka, 
+            exploring the intersection of tectonic logic and atmospheric space.
           </h2>
 
-          <p className="text-lg md:text-xl font-light text-gray-600 dark:text-gray-400 leading-relaxed mb-16">
-            The practice explores the subtle dialogue between site context and autonomous architectural form. Through an iterative process of technical drafting, physical modeling, and meticulous material research, each project is defined by a rigorous commitment to structural integrity and aesthetic clarity.
+          {/* Description Body - Clean & Readable */}
+          <p className="text-base md:text-lg font-normal text-gray-600 dark:text-neutral-400 leading-relaxed mb-16">
+            The practice explores the subtle dialogue between site context and autonomous 
+            architectural form. Through an iterative process of technical drafting, physical 
+            modeling, and meticulous material research, each project is defined by a rigorous 
+            commitment to structural integrity and aesthetic clarity.
           </p>
 
           <div className="space-y-16">
