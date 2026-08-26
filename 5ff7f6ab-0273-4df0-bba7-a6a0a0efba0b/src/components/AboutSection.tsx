@@ -133,7 +133,7 @@ export function AboutSection() {
                       Dhaka Government Polytechnic Institute
                     </p>
                     <p className="text-gray-500 dark:text-neutral-500 mt-1">
-                      Diploma in Architecture Technology (Running 7th Semester)[cite: 1]
+                      Diploma in Architecture Engineering
                     </p>
                   </div>
                   <div>
@@ -141,7 +141,7 @@ export function AboutSection() {
                       Nasirabad Collegiate School, Mymensingh
                     </p>
                     <p className="text-gray-500 dark:text-neutral-500 mt-1">
-                      Secondary School Certificate — Science (GPA: 4.67)[cite: 1]
+                      Secondary School Certificate — Science 
                     </p>
                   </div>
                 </div>
@@ -157,18 +157,18 @@ export function AboutSection() {
                 <div className="space-y-6 text-xs">
                   <div>
                     <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">
-                      Professional AutoCAD 2D Course[cite: 1]
+                      Professional AutoCAD 2D Course
                     </p>
                     <p className="text-gray-500 dark:text-neutral-500 mt-1">
-                      Reno-Arch Academy[cite: 1]
+                      Reno-Arch Academy
                     </p>
                   </div>
                   <div>
                     <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">
-                      Professional Exterior & Interior 3D Course[cite: 1]
+                      Professional Exterior & Interior 3D Course
                     </p>
                     <p className="text-gray-500 dark:text-neutral-500 mt-1">
-                      Reno-Arch Academy[cite: 1]
+                      Reno-Arch Academy
                     </p>
                   </div>
                 </div>
