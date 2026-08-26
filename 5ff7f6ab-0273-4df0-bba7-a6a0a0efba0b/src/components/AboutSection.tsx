@@ -109,29 +109,17 @@ export function AboutSection() {
                   </div>
                   <div className="space-y-6 text-xs">
                     <div>
-                      <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">Dhaka Polytechnic Institute</p>
+                      <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">Dhaka Government Polytechnic Institute,Dhaka</p>
                       <p className="text-gray-500 dark:text-neutral-500 mt-1">Diploma in Engineering (Architecture Technology)</p>
                     </div>
                     <div>
-                      <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">Nasirabad Collegiate School</p>
+                      <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">Nasirabad Collegiate School,Mymensingh</p>
                       <p className="text-gray-500 dark:text-neutral-500 mt-1">Secondary School Certificate (Science)</p>
                     </div>
                   </div>
                </div>
 
-               {/* Awards */}
-               <div className="space-y-4">
-                  <div className="border-b border-gray-200 dark:border-neutral-800 pb-2 mb-4">
-                    <span className="text-[10px] uppercase tracking-widest text-gray-400 font-medium">Selected Awards</span>
-                  </div>
-                  <div className="space-y-4 text-xs">
-                    <div className="flex justify-between border-b border-gray-50 dark:border-neutral-900 pb-2">
-                      <span className="text-gray-900 dark:text-gray-200 uppercase tracking-tight font-medium">Visualization Excellence</span>
-                      <span className="text-gray-400">2025</span>
-                    </div>
-                    <div className="flex justify-between border-b border-gray-50 dark:border-neutral-900 pb-2">
-                      <span className="text-gray-900 dark:text-gray-200 uppercase tracking-tight font-medium">Best Conceptual Design</span>
-                      <span className="text-gray-400">2025</span>
+               
                     </div>
                   </div>
                </div>
