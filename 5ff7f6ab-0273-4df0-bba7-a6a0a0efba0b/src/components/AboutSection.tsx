@@ -118,9 +118,7 @@ export function AboutSection() {
                     </div>
                   </div>
                </div>
-
-               
-                    </div>
+                </div>
                   </div>
                </div>
             </div>
