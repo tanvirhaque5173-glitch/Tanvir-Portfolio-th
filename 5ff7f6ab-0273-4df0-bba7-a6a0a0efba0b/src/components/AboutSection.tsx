@@ -53,21 +53,20 @@ export function AboutSection() {
           </div>
         </div>
 
-       {/* Right Column - Bio & Credentials */}
+        {/* Right Column - Bio & Credentials */}
         <div className="md:col-span-7 flex flex-col justify-center mt-12 md:mt-0">
           
-          {/* Main Headline - Modern Clean Sans-serif */}
+          {/* Main Headline */}
           <h2 className="text-2xl md:text-4xl font-sans font-medium text-gray-900 dark:text-gray-100 mb-8 leading-snug tracking-tight">
             Tanvir Haque is a Diploma Architect and Interior Designer based in Dhaka, 
             exploring the intersection of tectonic logic and atmospheric space.
           </h2>
 
-          {/* Description Body - Clean & Readable */}
+          {/* Bio Description */}
           <p className="text-base md:text-lg font-normal text-gray-600 dark:text-neutral-400 leading-relaxed mb-16">
-            The practice explores the subtle dialogue between site context and autonomous 
-            architectural form. Through an iterative process of technical drafting, physical 
-            modeling, and meticulous material research, each project is defined by a rigorous 
-            commitment to structural integrity and aesthetic clarity.
+            Enthusiastic architecture graduate seeking an entry-level position in a professional 
+            architectural firm to apply skills in architectural design, 2D drafting, and 3D visualization 
+            while contributing to innovative projects.
           </p>
 
           <div className="space-y-16">
@@ -83,9 +82,9 @@ export function AboutSection() {
                   '2D Architectural Drawing',
                   '3D Modeling & Visualization',
                   'Interior & Exterior Space Design',
-                  'Urban Planning & Strategy'
+                  'Facade & Structural Planning'
                 ].map((service) => (
-                  <div key={service} className="flex items-center gap-3 italic font-light">
+                  <div key={service} className="flex items-center gap-3 font-light">
                     <span className="w-1.5 h-1.5 bg-gray-300 dark:bg-neutral-700 rounded-full" />
                     {service}
                   </div>
@@ -104,7 +103,8 @@ export function AboutSection() {
                 {[
                   { name: 'AutoCAD 2D', level: 'Expert' },
                   { name: 'SketchUp', level: 'Expert' },
-                  { name: 'V-Ray', level: 'Advanced' }
+                  { name: 'V-Ray', level: 'Proficient' },
+                  { name: 'MS Office & Canva', level: 'Tools' }
                 ].map((skill, index) => (
                   <div key={index} className="flex flex-col">
                     <span className="text-sm text-gray-900 dark:text-gray-200 font-medium">
@@ -118,7 +118,7 @@ export function AboutSection() {
               </div>
             </div>
 
-            {/* Education & Awards Grid */}
+            {/* Education & Certifications Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-4">
               {/* Education */}
               <div className="space-y-4">
@@ -130,10 +130,10 @@ export function AboutSection() {
                 <div className="space-y-6 text-xs">
                   <div>
                     <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">
-                      Dhaka Government Polytechnic Institute, Dhaka
+                      Dhaka Government Polytechnic Institute
                     </p>
                     <p className="text-gray-500 dark:text-neutral-500 mt-1">
-                      Diploma in Engineering (Architecture Technology)
+                      Diploma in Architecture Technology (Running 7th Semester)[cite: 1]
                     </p>
                   </div>
                   <div>
@@ -141,12 +141,40 @@ export function AboutSection() {
                       Nasirabad Collegiate School, Mymensingh
                     </p>
                     <p className="text-gray-500 dark:text-neutral-500 mt-1">
-                      Secondary School Certificate (Science)
+                      Secondary School Certificate — Science (GPA: 4.67)[cite: 1]
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Certifications */}
+              <div className="space-y-4">
+                <div className="border-b border-gray-200 dark:border-neutral-800 pb-2 mb-4">
+                  <span className="text-[10px] uppercase tracking-widest text-gray-400 font-medium">
+                    Certifications
+                  </span>
+                </div>
+                <div className="space-y-6 text-xs">
+                  <div>
+                    <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">
+                      Professional AutoCAD 2D Course[cite: 1]
+                    </p>
+                    <p className="text-gray-500 dark:text-neutral-500 mt-1">
+                      Reno-Arch Academy[cite: 1]
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-gray-900 dark:text-gray-200 font-bold uppercase tracking-tight">
+                      Professional Exterior & Interior 3D Course[cite: 1]
+                    </p>
+                    <p className="text-gray-500 dark:text-neutral-500 mt-1">
+                      Reno-Arch Academy[cite: 1]
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </motion.div>
