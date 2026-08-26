@@ -88,8 +88,7 @@ export function AboutSection() {
                   { name: 'AutoCAD 2D', level: 'Expert' },
                   { name: 'SketchUp', level: 'Expert' },
                   { name: 'V-Ray', level: 'Advanced' },
-                  { name: 'Enscape', level: 'Advanced' },
-                  { name: 'Lumion', level: 'Advanced' }
+                  
                 ].map((skill, index) => (
                   <div key={index} className="flex flex-col">
                     <span className="text-sm text-gray-900 dark:text-gray-200 font-medium">{skill.name}</span>
