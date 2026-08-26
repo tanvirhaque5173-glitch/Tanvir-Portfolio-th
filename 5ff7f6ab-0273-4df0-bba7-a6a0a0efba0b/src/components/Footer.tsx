@@ -18,7 +18,7 @@ export function Footer() {
 
         {/* Location / Status */}
         <div className="tracking-widest uppercase text-[11px] text-gray-400 dark:text-neutral-500">
-          Dhaka, Bangladesh[cite: 1]
+          Dhaka, Bangladesh
         </div>
 
         {/* Portfolio / Back to top link */}
