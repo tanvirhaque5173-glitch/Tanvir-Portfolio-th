@@ -56,7 +56,7 @@ export function HeroSection() {
             Tanvir Haque
           </h1>
           <span className="text-sm tracking-[0.3em] uppercase opacity-70 font-light block">
-            Junior Architect | Dhaka, Bangladesh
+            Diploma Architect | Dhaka, Bangladesh
           </span>
         </motion.div>
 
